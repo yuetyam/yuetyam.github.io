@@ -1,0 +1,106 @@
+html, body {
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", ui-sans-serif, Roboto, "Helvetica Neue", "Segoe UI", "PingFang HK", "Source Han Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+        line-height: 1.2em;
+        background-color: #efefef;
+}
+
+.card {
+        text-align: center;
+        box-shadow: 0 0 32px 0 #999999;
+        border-radius: 8px;
+        background-color: white;
+        position: relative;
+        width: 40%;
+        left: 30%;
+        margin-top: 2%;
+}
+
+.more-line-height {
+        line-height: 1.8em;
+}
+
+.left-align {
+        text-align: left;
+        padding-left: 3em;
+        padding-right: 3em;
+}
+
+a {
+        text-decoration: none;
+        color: black;
+}
+
+a.blue-link {
+        color: #1F9BF3;
+}
+
+img.screenshot {
+        width: 40%;
+}
+
+img.app-store-badge {
+        width: 160px;
+}
+img.google-play-badge {
+        width: 183px;
+        padding-bottom: 7px;
+}
+
+.download-apk {
+        color: black;
+        padding: 11px;
+        padding-left: 24px;
+        padding-right: 24px;
+        border: 1px solid black;
+        border-radius: 5px;
+}
+
+.rectangle {
+        color: black;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 1px solid black;
+        border-radius: 5px;
+}
+
+.download-apk:hover  {
+        background-color: #1F9BF3;
+        color: white;
+        border: 1px solid #1F9BF3;
+}
+.rectangle:hover {
+        background-color: #1F9BF3;
+        color: white;
+        border: 1px solid #1F9BF3;
+}
+
+.footnote {
+        font-size: 0.85em;
+        color: #555555;
+        padding-left: 1em;
+        padding-right: 1em;
+}
+
+@media (max-width: 1078px) {
+        .card {
+                width: 60%;
+                left: 20%;
+        }
+        img.screenshot {
+                width: 60%;
+        }
+}
+@media (max-width: 801px) {
+        .card {
+                width: 96%;
+                left: 2%;
+        }
+        img.screenshot {
+                width: 70%;
+        }
+}
+
+pre, code {
+        font-family: "SF Mono", ui-monospace, Consolas, Menlo, monospace;
+}
