@@ -35,15 +35,11 @@ a.blue-link {
 }
 
 img.screenshot {
-        width: 40%;
+        width: 44%;
 }
 
 img.app-store-badge {
         width: 160px;
-}
-img.google-play-badge {
-        width: 183px;
-        padding-bottom: 7px;
 }
 
 .download-apk {
