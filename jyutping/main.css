@@ -1,5 +1,5 @@
 html, body {
-        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", ui-sans-serif, Roboto, "Helvetica Neue", "Segoe UI", "PingFang HK", "Source Han Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, SF Pro, ui-sans-serif, Roboto, Helvetica Neue, Segoe UI, GenYoGothic TW, PingFang HK, Source Han Sans K, Noto Sans CJK KR, Microsoft JhengHei, sans-serif;
         line-height: 1.2em;
         background-color: #efefef;
 }
@@ -79,7 +79,7 @@ img.app-store-badge {
 }
 
 pre, code {
-        font-family: "SF Mono", ui-monospace, Consolas, Menlo, monospace;
+        font-family: SF Mono, ui-monospace, Consolas, Menlo, monospace;
 }
 
 @media (max-width: 1078px) {
