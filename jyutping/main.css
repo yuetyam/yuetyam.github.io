@@ -1,5 +1,5 @@
 html, body {
-        font-family: -apple-system, BlinkMacSystemFont, SF Pro, Roboto, Helvetica Neue, Segoe UI, PingFang HK, GenYoGothic TW, Source Han Sans K, Noto Sans CJK KR, Microsoft JhengHei, ui-sans-serif, sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, SF Pro, Roboto, Helvetica Neue, Segoe UI, PingFang HK, Source Han Sans HC, Noto Sans CJK KR, Microsoft JhengHei, ui-sans-serif, sans-serif, Apple Color Emoji, Noto Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
         line-height: 1.2em;
         background-color: #efefef;
 }
@@ -79,7 +79,7 @@ img.app-store-badge {
 }
 
 pre, code {
-        font-family: SF Mono, ui-monospace, Consolas, Menlo, monospace;
+        font-family: SF Mono, ui-monospace, Consolas, Menlo, monospace, Apple Color Emoji, Noto Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 }
 
 @media (max-width: 1078px) {
