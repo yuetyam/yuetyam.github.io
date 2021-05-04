@@ -1,6 +1,5 @@
 html, body {
-        font-family: -apple-system, BlinkMacSystemFont, SF Pro, Roboto, Helvetica Neue, Segoe UI, PingFang HK, Source Han Sans HC, Noto Sans CJK KR, Microsoft JhengHei, ui-sans-serif, sans-serif, Apple Color Emoji, Noto Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-        line-height: 1.2em;
+        font-family: -apple-system, BlinkMacSystemFont, SF Pro, Roboto, Segoe UI, Helvetica Neue, Helvetica, Arial, Liberation Sans, Source Han Sans K, Noto Sans CJK KR, PingFang HK, Source Han Mono HC, Microsoft JhengHei, ui-sans-serif, sans-serif, Apple Color Emoji, Noto Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
         background-color: #efefef;
 }
 
@@ -16,7 +15,7 @@ html, body {
 }
 
 .more-line-height {
-        line-height: 1.8em;
+        line-height: 1.5em;
 }
 
 .left-align {
