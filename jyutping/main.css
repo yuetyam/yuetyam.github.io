@@ -2,6 +2,9 @@ html, body {
         font-family: -apple-system, BlinkMacSystemFont, SF Pro, Roboto, Segoe UI, Helvetica Neue, Helvetica, Arial, Liberation Sans, Source Han Sans K, Noto Sans CJK KR, PingFang HK, Source Han Mono HC, Microsoft JhengHei, ui-sans-serif, sans-serif, Apple Color Emoji, Noto Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
         background-color: #efefef;
 }
+h1, h2, h3 {
+        font-weight: 500;
+}
 
 .card {
         text-align: center;
