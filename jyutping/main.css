@@ -8,13 +8,13 @@ h1, h2, h3 {
 
 .card {
         text-align: center;
-        box-shadow: 0 0 32px 0 #999999;
         border-radius: 16px;
         background-color: white;
         position: relative;
         width: 40%;
         left: 30%;
         margin-top: 2%;
+        margin-bottom: 2%;
 }
 
 .more-line-height {
@@ -44,15 +44,6 @@ img.app-store-badge {
         width: 160px;
 }
 
-.download-apk {
-        color: black;
-        padding: 11px;
-        padding-left: 24px;
-        padding-right: 24px;
-        border: 1px solid black;
-        border-radius: 5px;
-}
-
 .rectangle {
         color: black;
         padding: 10px;
@@ -60,12 +51,6 @@ img.app-store-badge {
         padding-right: 20px;
         border: 1px solid black;
         border-radius: 5px;
-}
-
-.download-apk:hover  {
-        background-color: #1F9BF3;
-        color: white;
-        border: 1px solid #1F9BF3;
 }
 .rectangle:hover {
         background-color: #1F9BF3;
@@ -110,7 +95,6 @@ pre, code {
         }
         .card {
                 background-color: #1c1c1c;
-                box-shadow: 0 0 0 0 black;
         }
         .rectangle {
                 color: white;
