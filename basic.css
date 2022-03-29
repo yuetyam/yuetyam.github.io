@@ -1,0 +1,46 @@
+html, body {
+        font-family: -apple-system, BlinkMacSystemFont, SF Pro, Roboto, Segoe UI, Helvetica Neue, Helvetica, Arial, ChiuKong Gothic CL, Source Han Sans K, Noto Sans CJK KR, PingFang HK, Source Han Sans HC, Noto Sans CJK HK, ui-sans-serif, sans-serif, Apple Color Emoji, Noto Color Emoji, Segoe UI Emoji, Segoe UI Symbol, emoji;
+        line-height: 2em;
+        background-color: #efefef;
+}
+
+code {
+        font-family: SF Mono, SFMono-Regular, ui-monospace, Menlo, monospace, ChiuKong Gothic CL, Source Han Sans K, Noto Sans CJK KR, PingFang HK, Source Han Sans HC, Noto Sans CJK HK, Apple Color Emoji, Noto Color Emoji, Segoe UI Emoji, Segoe UI Symbol, emoji;
+}
+
+a {
+        text-decoration: none;
+        color: #1F9BF3;
+}
+
+.card {
+        text-align: center;
+        border-radius: 16px;
+        background-color: white;
+        position: relative;
+        width: 40%;
+        left: 30%;
+}
+
+@media (max-width: 1078px) {
+        .card {
+                width: 60%;
+                left: 20%;
+        }
+}
+@media (max-width: 801px) {
+        .card {
+                width: 96%;
+                left: 2%;
+        }
+}
+
+@media(prefers-color-scheme: dark) {
+        html, body {
+                color: white;
+                background: black;
+        }
+        .card {
+                background-color: #1c1c1c;
+        }
+}
